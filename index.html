@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krathika Mendon | Engineer & Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">KM</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="toggle-icon">☀</span>
+      </button>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
+    </div>
+    <!-- Mobile menu -->
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a href="#about" onclick="closeMobile()">About</a></li>
+      <li><a href="#skills" onclick="closeMobile()">Skills</a></li>
+      <li><a href="#projects" onclick="closeMobile()">Projects</a></li>
+      <li><a href="#contact" onclick="closeMobile()">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════════════════════════
+       HERO
+  ═══════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-lines" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Electronics &amp; Telecommunication Engineering Student</p>
+
+      <h1 class="hero-name">
+        <span class="name-first">Krathika</span>
+        <span class="name-last">Mendon</span>
+      </h1>
+      <p class="hero-tagline">
+        Building intelligent systems at the intersection of<br>
+        <span class="gold">Embedded Technology</span> &amp; <span class="gold">Artificial Intelligence</span>
+      </p>
+      <p class="hero-meta">
+        <span class="hero-sparkle">✦</span>
+        <em>"Engineer by Choice, Creator by Nature · Where hardware meets Intelligence, that's where you'll find me"</em>
+        <span class="hero-sparkle">✦</span>
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span class="scroll-line"></span>
+        <span class="scroll-label">scroll</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       ABOUT
+  ═══════════════════════════════ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01 — About</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am <strong>Krathika Narayan Mendon</strong>, a results-driven third-year
+            <strong>B.E. Electronics &amp; Telecommunication Engineering</strong> student at
+            <strong>M.H. Saboo Siddik College of Engineering, Mumbai</strong> — with a
+            CGPA of <strong>8.87 / 10.0</strong> across four semesters.
+          </p>
+          <p>
+            I have hands-on experience in embedded systems, IoT, AI/ML, and full-stack
+            development. From building Arduino-based irrigation systems to developing
+            real-time AI clinical decision support, I pursue projects that make a
+            tangible difference.
+          </p>
+          <p>
+            Beyond engineering, I am a selected participant in
+            <strong>Smart India Hackathon (SIH) 2026</strong> and serve as
+            <strong>Joint Head of Social Media</strong> for the IETE Student Chapter —
+            combining technical depth with leadership and communication.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <span class="detail-label">Degree</span>
+              <span class="detail-value">B.E. Electronics &amp; Telecommunication (2024–2028)</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">College</span>
+              <span class="detail-value">M.H. Saboo Siddik College of Engineering, Mumbai</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">CGPA</span>
+              <span class="detail-value">8.87 / 10.0 (up to Semester 4)</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Focus Areas</span>
+              <span class="detail-value">Embedded Systems · AI/ML · IoT · Full-Stack</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Email</span>
+              <span class="detail-value">mendonkrathi@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="about-initials" aria-hidden="true">KM</div>
+          <div class="about-stat-grid">
+            <div class="about-stat">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="about-stat">
+              <span class="stat-number">8.87</span>
+              <span class="stat-label">CGPA</span>
+            </div>
+            <div class="about-stat">
+              <span class="stat-number">SIH</span>
+              <span class="stat-label">2026 Qualifier</span>
+            </div>
+            <div class="about-stat">
+              <span class="stat-number">4</span>
+              <span class="stat-label">Languages</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       SKILLS
+  ═══════════════════════════════ -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02 — Skills</span>
+        <h2 class="section-title">What I Know</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <h3 class="category-title">Programming Languages</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">C / C++</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--pct: 85%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">Python</span>
+                <span class="skill-pct">82%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--pct: 82%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">HTML &amp; CSS</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--pct: 80%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">Java</span>
+                <span class="skill-pct">65%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--pct: 65%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">Engineering &amp; AI/ML</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">Embedded Systems &amp; IoT</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--pct: 85%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">Machine Learning</span>
+                <span class="skill-pct">75%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--pct: 75%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">Arduino &amp; Hardware Prototyping</span>
+                <span class="skill-pct">82%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--pct: 82%"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-top">
+                <span class="skill-name">AWS Cloud</span>
+                <span class="skill-pct">55%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="--pct: 55%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">Frameworks &amp; Tools</h3>
+          <div class="skill-chips-wrap">
+            <span class="skill-chip">NumPy</span>
+            <span class="skill-chip">Pandas</span>
+            <span class="skill-chip">Scikit-learn</span>
+            <span class="skill-chip">Git &amp; GitHub</span>
+            <span class="skill-chip">Arduino IDE</span>
+            <span class="skill-chip">VS Code</span>
+            <span class="skill-chip">REST API</span>
+            <span class="skill-chip">Linux (basic)</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">Tools &amp; Professional</h3>
+          <div class="skill-chips-wrap">
+            <span class="skill-chip">MS Word</span>
+            <span class="skill-chip">Excel</span>
+            <span class="skill-chip">Advanced Excel</span>
+            <span class="skill-chip">PowerPoint</span>
+            <span class="skill-chip">Google Workspace</span>
+            <span class="skill-chip">Leadership</span>
+            <span class="skill-chip">Communication</span>
+            <span class="skill-chip">Team Collaboration</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       PROJECTS
+  ═══════════════════════════════ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03 — Projects</span>
+        <h2 class="section-title">What I've Built</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-number" aria-hidden="true">01</div>
+          <div class="project-tag-row">
+            <span class="ptag">AI / ML</span>
+            <span class="ptag">Healthcare</span>
+            <span class="ptag">REST API</span>
+          </div>
+          <h3 class="project-title">AI for Real-Time Clinical Decision Support</h3>
+          <p class="project-desc">
+            Building a real-time sepsis-detection and clinical decision support system
+            targeting under-resourced hospitals. Designed an AI/ML pipeline integrating
+            patient vitals and clinical data to flag high-risk cases, aiming to reduce
+            diagnostic delays by ~40%.
+          </p>
+          <div class="project-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span>AI/ML pipeline for patient vitals analysis</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span>REST API backend for hospital workflow integration</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span>~40% reduction in diagnostic delays (target)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number" aria-hidden="true">02</div>
+          <div class="project-tag-row">
+            <span class="ptag">Embedded Systems</span>
+            <span class="ptag">IoT</span>
+            <span class="ptag">Arduino</span>
+          </div>
+          <h3 class="project-title">Smart Irrigation System</h3>
+          <p class="project-desc">
+            Built an Arduino-based automated irrigation system using soil-moisture sensors
+            and relay control. Integrated threshold-based logic to optimise water usage,
+            reducing manual intervention by ~60%.
+          </p>
+          <div class="project-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span>Arduino + soil-moisture sensors + relay control</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span>~60% reduction in manual intervention</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span>Threshold-based water optimisation logic</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number" aria-hidden="true">03</div>
+          <div class="project-tag-row">
+            <span class="ptag">Embedded Systems</span>
+            <span class="ptag">IoT</span>
+            <span class="ptag">Data Encoding</span>
+          </div>
+          <h3 class="project-title">VeriTrace — Product Authenticity Tag System</h3>
+          <p class="project-desc">
+            Developed a smart tag system that encodes manufacturing details, raw materials,
+            and supply chain data — reducing counterfeit product risk. Enables consumers
+            to verify product authenticity in under 3 seconds.
+          </p>
+          <div class="project-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span>Encodes full supply chain data into smart tags</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span>Authentication in under 3 seconds</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span>Reduces counterfeit product risk</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number" aria-hidden="true">04</div>
+          <div class="project-tag-row">
+            <span class="ptag">Arduino</span>
+            <span class="ptag">Embedded Systems</span>
+            <span class="ptag">Safety Systems</span>
+          </div>
+          <h3 class="project-title">Smart Vehicle Speed Controller</h3>
+          <p class="project-desc">
+            Designed an Arduino-powered speed regulation system with zone-based detection,
+            reducing simulated over-speed incidents by ~70% in test runs. Applied real-time
+            sensor feedback and actuator control — core skills for automotive and safety-critical systems.
+          </p>
+          <div class="project-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span>Zone-based speed detection and control</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span>~70% reduction in over-speed incidents (test)</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span>Real-time sensor feedback + actuator control</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       CONTACT
+  ═══════════════════════════════ -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04 — Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+      </div>
+      <p class="contact-intro">
+        Open to internships, collaborations, and opportunities in Embedded Systems, AI/ML, and Cloud Computing.
+        Feel free to reach out!
+      </p>
+      <div class="contact-grid">
+        <a href="mailto:mendonkrathi@gmail.com" class="contact-card">
+          <span class="contact-icon">✉</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">mendonkrathi@gmail.com</span>
+        </a>
+        <a href="https://github.com/Krathi-07" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-icon">⌥</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/Krathi-07</span>
+        </a>
+        <a href="https://linkedin.com/in/krathika-mendon-939532362" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-icon">in</span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">krathika-mendon-939532362</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       FOOTER
+  ═══════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-name">Krathika Mendon</span>
+        <span class="footer-copy">
+          &copy; 2026 · Built with HTML &amp; CSS · EWB Internship Portfolio
+        </span>
+        <a href="#hero" class="footer-top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ── Theme Toggle ──
+    const html = document.documentElement;
+    const btn  = document.getElementById('themeToggle');
+    const icon = btn.querySelector('.toggle-icon');
+
+    function setTheme(t) {
+      html.setAttribute('data-theme', t);
+      icon.textContent = t === 'dark' ? '☀' : '☾';
+      localStorage.setItem('km-theme', t);
+    }
+
+    // Load saved theme
+    const saved = localStorage.getItem('km-theme') || 'dark';
+    setTheme(saved);
+
+    btn.addEventListener('click', () => {
+      setTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    });
+
+    // ── Sticky Nav shadow ──
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // ── Mobile menu ──
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    });
+    function closeMobile() {
+      document.getElementById('mobileMenu').classList.remove('open');
+    }
+
+    // Skill bars animate via CSS @keyframes (no JS needed)
+  </script>
+
+</body>
+</html>
